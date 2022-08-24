@@ -11,8 +11,8 @@
 <body style="background-color: #12c2e9;  
 background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9); 
 background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9)">
-<div class="container-fluid">
-    <nav class="navbar navbar-expand-lg" style="background-color: #12c2e9;  
+    <header>
+        <nav class="navbar navbar-expand-lg" style="background-color: #12c2e9;  
         background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9); 
         background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9)">
         <div class="container-fluid">
@@ -27,12 +27,71 @@ background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9)">
               <a id="elemeto" class="nav-link active" aria-current="page" href="/index.html">Perfil</a>
               <a id="elemeto" class="nav-link" href="/dashbord.html">Dashbord</a>
               <a id="elemeto" class="nav-link" href="/loging.html">Loging</a>
-              <div class="container-fluid">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="BUSCA A TUS AMIGOS" aria-label="Search">
-                    <button class="btn " type="submit">BUSCAR</button>
-                  </form>
-            </div>
           </div>
         </div>
-      </nav>
+    </nav>
+    </header>  
+    <form>
+        <div class="container my-5" >
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                  <div class="row g-3 align-items-center">
+                    <P class="CONTRASEÑA">ACTUALIZE SU CONTRASEÑA</P>
+                    <div class="col-auto">
+                      <label for="inputPassword6" class="col-form-label">ingrese contraseña anterior</label>
+                    </div>
+                    <div class="col-auto ">
+                      <input type="password" placeholder="ingrse su contraseña" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                    </div>
+                    <div class="col-auto">
+                    </div>
+                  </div>
+                  <div class="row g-3 align-items-center">
+                    <div class="col-auto">
+                      <label for="inputPassword7" class="col-form-label">ingrese contraseña nueva</label>
+                    </div>
+                    <div class="col-auto my-5">
+                      <input type="password" placeholder="Contraseña su nueva" id="inputPassword7" class="form-control" aria-describedby="passwordHelpInline">
+                    </div>
+                    <div class="col-auto">
+                    </div>
+                  </div>
+                  <div class="row g-3 align-items-center">
+                    <div class="col-auto">
+                      <label for="inputPassword8" class="col-form-label">Confirme contraseña nueva</label>
+                    </div>
+                    <div class="col-auto">
+                      <input type="password" id="inputPassword8" placeholder="Confirme su contraseña" class="form-control" aria-describedby="passwordHelpInline">
+                    </div>
+                    <div class="col-auto">
+                    </div>
+                  </div>
+                </div>               
+             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6" >
+               <p class="CONTRASEÑA">ACTUALIZE SUS DATOS</p>
+              <div class="row g-3 align-items-center my-3">
+                <div class="col-auto">
+                  <label for="inputPassword6" class="col-form-label">Nuemro de telefono</label>
+                </div>
+                <div class="col-auto">
+                  <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                </div>
+                <div class="col-auto">
+                </div>
+              </div>
+              <div class="row g-3 align-items-center my-3">
+                <div class="col-auto">
+                  <label for="inputPassword6" class="col-form-label">Nombre de Usuario</label>
+                </div>
+                <div class="col-auto">
+                  <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                </div>
+                <div class="col-auto">
+                </div>
+              </div>
+              <P class="correo">Coreo electrónico: homero_simpson@gmail.com</P>
+             </div>
+             <div class="d-grid gap-2 col-10 "><button type="button" class="btn btn-primary my-5" disabled>GUARDAR CAMBIOS</button></div>
+        </div>
+</body>
+</html>
